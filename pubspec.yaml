@@ -11,14 +11,16 @@ dependencies:
     sdk: flutter
   mobx: ^2.0.5
   dio: ^4.0.1
-  either_dart: ^0.1.4
+  # either_dart: ^0.1.4
+  dartz: ^0.10.0
 
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mockito: ^5.0.16
+  # mockito: ^5.0.16
+  mocktail: ^0.2.0
 
   flutter_lints: ^1.0.0
 
