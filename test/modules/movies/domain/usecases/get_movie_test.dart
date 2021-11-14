@@ -25,7 +25,7 @@ void main() {
   final mockedSimilarMovie = SimilarMovie(
     title: 'title',
     posterPath: 'posterPath',
-    releaseDate: DateTime(2000),
+    releaseDate: '2000',
   );
 
   test('should get movie', () async {

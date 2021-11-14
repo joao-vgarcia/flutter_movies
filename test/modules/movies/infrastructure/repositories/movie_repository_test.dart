@@ -26,7 +26,7 @@ void main() {
 
   test('should similar movies', () async {
     when(() => datasource.getSimilarMovies(1)).thenAnswer(
-        (_) async => [SimilarMovieModel('title', 'path', DateTime(2000))]);
+        (_) async => [SimilarMovieModel('title', 'path', '2000')]);
 
     final result = await repository.getSimilarMovies(1);
 

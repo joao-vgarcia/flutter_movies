@@ -5,7 +5,7 @@ import 'package:flutter_movies/modules/movies/domain/entities/similar_movies.dar
 class SimilarMovieModel extends SimilarMovie {
   final String title;
   final String posterPath;
-  final DateTime releaseDate;
+  final String releaseDate;
 
   SimilarMovieModel(this.title, this.posterPath, this.releaseDate) : super(title: title, posterPath: posterPath, releaseDate: releaseDate);
   
@@ -14,7 +14,7 @@ class SimilarMovieModel extends SimilarMovie {
     return {
       'title': title,
       'poster_path': posterPath,
-      'release_date': releaseDate.millisecondsSinceEpoch,
+      'release_date': releaseDate,
     };
   }
 
@@ -22,7 +22,7 @@ class SimilarMovieModel extends SimilarMovie {
     return SimilarMovieModel(
       map['title'],
       map['poster_path'],
-      DateTime(map['release_date']),
+      map['release_date'],
     );
   }
 
