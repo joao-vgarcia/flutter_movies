@@ -1,7 +1,7 @@
 class Movie {
   final String originalTitle;
   final int voteCount;
-  final int popularity;
+  final double popularity;
   final String posterPath;
 
   Movie({

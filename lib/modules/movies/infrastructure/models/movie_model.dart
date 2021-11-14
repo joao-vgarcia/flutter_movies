@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:flutter_movies/modules/get_movies/domain/entities/movie.dart';
+import 'package:flutter_movies/modules/movies/domain/entities/movie.dart';
 
 class MovieModel extends Movie {
   final String originalTitle;
   final int voteCount;
-  final int popularity;
+  final double popularity;
   final String posterPath;
 
   MovieModel({
@@ -18,19 +18,19 @@ class MovieModel extends Movie {
 
   Map<String, dynamic> toMap() {
     return {
-      'originalTitle': originalTitle,
-      'voteCount': voteCount,
+      'original_title': originalTitle,
+      'vote_count': voteCount,
       'popularity': popularity,
-      'posterPath': posterPath,
+      'poster_path': posterPath,
     };
   }
 
   factory MovieModel.fromMap(Map<String, dynamic> map) {
     return MovieModel(
-      originalTitle: map['originalTitle'],
-      voteCount: map['voteCount'],
+      originalTitle: map['original_title'],
+      voteCount: map['vote_count'],
       popularity: map['popularity'],
-      posterPath: map['posterPath'],
+      posterPath: map['poster_path'],
     );
   }
 
