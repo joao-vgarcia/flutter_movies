@@ -12,11 +12,16 @@ class GetMovie implements GetMovieUsecase {
 
   @override
   Future<Either<FailureMovie, Movie>> getMovieById(int id) async {
+    // final response = await _repository.getMovieById(id);
+    // if (response.isRight()) {
+    //   return response.toOption().toNullable()!;
+    // }
     return await _repository.getMovieById(id);
   }
 
   @override
-  Future<Either<FailureMovie, List<SimilarMovie>>> getSimilarMovies(int id) async {
+  Future<Either<FailureMovie, List<SimilarMovie>>> getSimilarMovies(
+      int id) async {
     return await _repository.getSimilarMovies(id);
   }
 }
