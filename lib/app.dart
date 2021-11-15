@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_movies/modules/movies/presenter/movie_details.dart';
+import 'package:movies/modules/movies/presenter/movie_details.dart';
 
 class MyApp extends StatelessWidget {
 

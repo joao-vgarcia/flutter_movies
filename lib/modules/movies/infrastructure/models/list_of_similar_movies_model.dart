@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_movies/modules/movies/infrastructure/models/similar_movie_model.dart';
+import 'package:movies/modules/movies/infrastructure/models/similar_movie_model.dart';
 
 class ListOfSimilarMovies {
   // final String page;

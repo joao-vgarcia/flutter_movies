@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_movies/core/api_client.dart';
-import 'package:flutter_movies/modules/movies/external/datasource/moviedb_datasource.dart';
-import 'package:flutter_movies/modules/movies/infrastructure/models/list_of_similar_movies_model.dart';
-import 'package:flutter_movies/modules/movies/infrastructure/models/movie_model.dart';
-import 'package:flutter_movies/modules/movies/infrastructure/models/similar_movie_model.dart';
+import 'package:movies/core/api_client.dart';
+import 'package:movies/modules/movies/external/datasource/moviedb_datasource.dart';
+import 'package:movies/modules/movies/infrastructure/models/list_of_similar_movies_model.dart';
+import 'package:movies/modules/movies/infrastructure/models/movie_model.dart';
+import 'package:movies/modules/movies/infrastructure/models/similar_movie_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:flutter_movies/modules/movies/domain/entities/movie.dart';
-import 'package:flutter_movies/modules/movies/domain/entities/similar_movies.dart';
-import 'package:flutter_movies/modules/movies/domain/usecases/get_movie.dart';
+import 'package:movies/modules/movies/domain/entities/movie.dart';
+import 'package:movies/modules/movies/domain/entities/similar_movies.dart';
+import 'package:movies/modules/movies/domain/usecases/get_movie.dart';
 import 'package:mobx/mobx.dart';
 
 part 'movie_details_store.g.dart';
@@ -66,7 +66,11 @@ abstract class MovieDetailsStoreBase with Store {
     if (_similarMovie.isNotEmpty) {
       _similarMovie.clear();
     }
-    _similarMovie.addAll(movieList!);
+    if (movieList != null) {
+      _similarMovie.addAll(movieList);
+    } else {
+      getMovieById();
+    }
   }
 
   String posterPath(String path) {

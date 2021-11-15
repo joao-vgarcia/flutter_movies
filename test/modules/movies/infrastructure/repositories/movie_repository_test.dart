@@ -1,9 +1,9 @@
-import 'package:flutter_movies/modules/movies/domain/entities/similar_movies.dart';
-import 'package:flutter_movies/modules/movies/domain/errors/errors.dart';
-import 'package:flutter_movies/modules/movies/infrastructure/datasources/movie_datasource.dart';
-import 'package:flutter_movies/modules/movies/infrastructure/models/movie_model.dart';
-import 'package:flutter_movies/modules/movies/infrastructure/models/similar_movie_model.dart';
-import 'package:flutter_movies/modules/movies/infrastructure/repositories/movie_repository.dart';
+import 'package:movies/modules/movies/domain/entities/similar_movies.dart';
+import 'package:movies/modules/movies/domain/errors/errors.dart';
+import 'package:movies/modules/movies/infrastructure/datasources/movie_datasource.dart';
+import 'package:movies/modules/movies/infrastructure/models/movie_model.dart';
+import 'package:movies/modules/movies/infrastructure/models/similar_movie_model.dart';
+import 'package:movies/modules/movies/infrastructure/repositories/movie_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

@@ -1,5 +1,5 @@
-name: flutter_movies
-description: A new Flutter project.
+name: movies
+description: A DDD and TDD flutter app that get movies from the moviedb database.
 publish_to: 'none'
 version: 1.0.0+1
 

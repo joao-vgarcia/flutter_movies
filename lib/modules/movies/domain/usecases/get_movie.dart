@@ -1,9 +1,9 @@
-import 'package:flutter_movies/modules/movies/domain/entities/similar_movies.dart';
-import 'package:flutter_movies/modules/movies/domain/errors/errors.dart';
-import 'package:flutter_movies/modules/movies/domain/entities/movie.dart';
+import 'package:movies/modules/movies/domain/entities/similar_movies.dart';
+import 'package:movies/modules/movies/domain/errors/errors.dart';
+import 'package:movies/modules/movies/domain/entities/movie.dart';
 import 'package:dartz/dartz.dart';
-import 'package:flutter_movies/modules/movies/domain/repositories/movie_repository_usecases.dart';
-import 'package:flutter_movies/modules/movies/domain/usecases/get_movie_usecase.dart';
+import 'package:movies/modules/movies/domain/repositories/movie_repository_usecases.dart';
+import 'package:movies/modules/movies/domain/usecases/get_movie_usecase.dart';
 
 class GetMovie implements GetMovieUsecase {
   final MovieRepositoryUsecases _repository;

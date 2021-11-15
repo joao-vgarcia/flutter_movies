@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_movies/modules/movies/domain/entities/movie.dart';
-import 'package:flutter_movies/modules/movies/domain/entities/similar_movies.dart';
-import 'package:flutter_movies/modules/movies/domain/repositories/movie_repository_usecases.dart';
-import 'package:flutter_movies/modules/movies/domain/usecases/get_movie.dart';
+import 'package:movies/modules/movies/domain/entities/movie.dart';
+import 'package:movies/modules/movies/domain/entities/similar_movies.dart';
+import 'package:movies/modules/movies/domain/repositories/movie_repository_usecases.dart';
+import 'package:movies/modules/movies/domain/usecases/get_movie.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 // used mocktail istead of mockito to use either values on flutter 2.0 v

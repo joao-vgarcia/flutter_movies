@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_movies/modules/movies/domain/entities/similar_movies.dart';
+import 'package:movies/modules/movies/domain/entities/similar_movies.dart';
 
 class SimilarMovieModel extends SimilarMovie {
   final String title;

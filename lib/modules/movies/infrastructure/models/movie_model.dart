@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_movies/modules/movies/domain/entities/movie.dart';
+import 'package:movies/modules/movies/domain/entities/movie.dart';
 
 class MovieModel extends Movie {
   final String originalTitle;

@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutter_movies/core/service_locator.dart';
-import 'package:flutter_movies/modules/movies/presenter/store/movie_details_store.dart';
+import 'package:movies/core/service_locator.dart';
+import 'package:movies/modules/movies/presenter/store/movie_details_store.dart';
 
 class MovieDetailsPage extends StatefulWidget {
   @override
